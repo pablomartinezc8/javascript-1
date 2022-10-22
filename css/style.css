@@ -1,0 +1,41 @@
+*{
+    background-color: white;
+    color: black
+}
+header__ul{
+    background-color: aliceblue;
+    color: white;
+}
+  
+.tresServ{
+    
+    display: flex;
+height: 900px;
+    background-color: cadetblue
+}
+.tresImagenes{
+    background-color: white;
+    height: 100px;
+    width: 30vw;
+    margin: 15px;
+    border-radius: 2px solid black;
+}
+button{
+    color: aliceblues;
+}
+header img{
+    height: 150px;
+    
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+p{
+   text-align: center;
+   margin-bottom: 90px;
+}
