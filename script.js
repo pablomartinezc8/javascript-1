@@ -139,15 +139,30 @@ if(pago=="tarjeta"){
 
           valorCuota= totalTotal/cuotas
          console.log("3 cuotas de: $"+ valorCuota)
-
+         datosTarjeta=Number(prompt("ingrese los 12 digitos de su tarjeta"))
+         if(datosTarjeta>=100000000000 && datosTarjeta<=999999999999){
+            alert("tarjeta aprobada")
+         }else{
+            alert("tarjeta invalida")
+         }
         }else if(cuotas==6){
                  valorCuota= totalTotal/cuotas
          console.log("6 cuotas de: $"+ valorCuota)
-
+         datosTarjeta=Number(prompt("ingrese los 12 digitos de su tarjeta"))
+         if(datosTarjeta>=100000000000 && datosTarjeta<=999999999999){
+            alert("tarjeta aprobada")
+         }else{
+            alert("tarjeta invalida")
+         }
         }else if(cuotas ==12){
                  valorCuota= totalTotal/cuotas
          console.log("12 cuotas de: $"+ valorCuota)
-
+         datosTarjeta=Number(prompt("ingrese los 12 digitos de su tarjeta"))
+         if(datosTarjeta>=100000000000 && datosTarjeta<=999999999999){
+            alert("tarjeta aprobada")
+         }else{
+            alert("tarjeta invalida")
+         }
         }else{
             alert("opcion invalida")
         }
